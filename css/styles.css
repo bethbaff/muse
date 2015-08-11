@@ -1,0 +1,42 @@
+/* Style.css */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.topics li {
+  font-size: 14px;
+  float: left;
+  padding: 20px;
+  width: 25%;
+}
+
+.topicpics {
+  width: 25%;
+  float: left;
+}
+
+.aboutmuse {
+  clear: both;
+  padding: 20px;
+}
