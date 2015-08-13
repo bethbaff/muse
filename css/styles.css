@@ -19,6 +19,12 @@ h1 {
   padding: 20px;
   width: 100%;
   text-align: center;
+
+}
+
+h1 a {
+  background-image: url("http://www.pexels.com/photo/food-raspberries-fruits-7329/");
+  background-size: cover;
 }
 
 h2 {
@@ -30,7 +36,7 @@ h2 {
 }
 
 .topics li {
-  font-size: .75rem;
+  font-size: 1rem;
   float: left;
   width: 25%;
   margin-top: 15px;
@@ -89,12 +95,14 @@ footer {
   margin-top: 20px;
   margin-left: 175px;
   margin-right: 5%;
+  font-size: 1.1rem;
 
 }
 
 .profile {
   float: left;
-  background-color: white;
+  margin: 10px;
+
 }
 
 .article {
@@ -130,4 +138,10 @@ footer {
 a {
   text-decoration: none;
   color: slategrey;
+}
+
+.space {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
 }
