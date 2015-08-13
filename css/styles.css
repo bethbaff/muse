@@ -15,14 +15,14 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3rem;
   padding: 20px;
   width: 100%;
   text-align: center;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.5rem;
   padding: 20px;
   text-align: center;
   background-color: lightgrey;
@@ -30,7 +30,7 @@ h2 {
 }
 
 .topics li {
-  font-size: 14px;
+  font-size: .75rem;
   float: left;
   width: 25%;
   margin-top: 15px;
@@ -47,16 +47,23 @@ h2 {
 
 button {
   padding: 20px;
-  background-color: lightblue;
+  background-color: lightgrey;
   font-size: 14px;
 }
 
 .meetmuse {
-  font-size: 20px;
+  font-size: 1rem;
   padding: 20px;
   text-align: center;
-  background-color: lightgrey;
+  background-color: slategrey;
   width: 100%;
+}
+
+.profilewrap {
+  clear: both;
+  padding: 1%;
+  width: 100%;
+  margin: 1%;
 }
 
 footer {
@@ -64,13 +71,63 @@ footer {
   text-align: center;
   background-color: lightgrey;
   width: 100%;
+  display: block;
+  clear: both;
 }
 
 .footerbutton button {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
-  background-color: lightgreen;
+  background-color: slategrey;
   font-size: 10px;
   clear: both;
+  color: white;
 
+}
+
+.profile p {
+  margin-top: 20px;
+  margin-left: 175px;
+  margin-right: 5%;
+
+}
+
+.profile {
+  float: left;
+  background-color: white;
+}
+
+.article {
+  width: 65%;
+  float: left;
+  margin-right: 3%;
+}
+
+.article h3 {
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+.article p {
+  font-size: 1rem;
+  padding: 2%;
+}
+
+.pastarticle {
+  float: left;
+  width: 30%;
+}
+
+.pastarticle h3 {
+  padding: 2%;
+  font-size: 1.5rem;
+}
+
+.pastarticle li {
+  padding: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: slategrey;
 }
