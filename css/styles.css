@@ -14,18 +14,53 @@ body {
   font-size: 16px;
 }
 
+header .investing {
+  background: url("../images/investing.jpg");
+  background-size: cover;
+
+}
+
+header .investing h1 {
+  height: 150px;
+}
+
+header .health {
+  background: url("../images/health.jpg");
+  background-size: cover;
+}
+
+header .health h1 {
+  height: 150px;
+}
+
+header .politics {
+  background: url("../images/politics.jpg");
+  background-size: cover;
+}
+
+header .politics h1 {
+  height: 150px;
+}
+
+header .other {
+  background: url("../images/chalk.jpg");
+  background-size: cover;
+
+}
+
+header .other h1 {
+  height: 150px;
+}
+
 h1 {
   font-size: 3rem;
   padding: 20px;
   width: 100%;
   text-align: center;
+  box-shadow: 10px 10px 5px #888888;
 
 }
 
-h1 a {
-  background-image: url("http://www.pexels.com/photo/food-raspberries-fruits-7329/");
-  background-size: cover;
-}
 
 h2 {
   font-size: 1.5rem;
@@ -144,4 +179,5 @@ a {
   width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0, 10, 10, 0;
 }
