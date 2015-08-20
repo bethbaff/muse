@@ -53,12 +53,12 @@ header .other h1 {
 }
 
 h1 {
+  display: block;
   font-size: 3rem;
   padding: 20px;
   width: 100%;
   text-align: center;
-  box-shadow: 10px 10px 5px #888888;
-
+  box-shadow: 4px 4px 3px 1px #ddd;
 }
 
 
@@ -68,6 +68,7 @@ h2 {
   text-align: center;
   background-color: lightgrey;
   width: 100%;
+  box-shadow: 4px 4px 3px 1px #ddd;
 }
 
 .topics li {
@@ -93,11 +94,13 @@ button {
 }
 
 .meetmuse {
+  display: block;
   font-size: 1rem;
   padding: 20px;
   text-align: center;
   background-color: slategrey;
   width: 100%;
+  box-shadow: 4px 4px 3px 1px #ddd;
 }
 
 .profilewrap {
@@ -172,7 +175,8 @@ footer {
 
 a {
   text-decoration: none;
-  color: slategrey;
+  color: black;
+  text-shadow: 1px 1px 1px #999;
 }
 
 .space {
@@ -180,4 +184,31 @@ a {
   background-color: white;
   padding: 20px;
   box-shadow: 0, 10, 10, 0;
+}
+
+form {
+  margin: 10px 20px 10px 20px;
+
+}
+
+input {
+  margin: 10px;
+}
+
+input #aboutyou {
+  display: block;
+}
+
+input #contact {
+  display: block;
+}
+#aboutyou {
+  width: 100%;
+  padding: 5%;
+}
+
+#musinginterest {
+  width: 40%;
+  padding: 3%;
+
 }
