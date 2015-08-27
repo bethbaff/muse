@@ -98,7 +98,7 @@ h2 {
 button {
   padding: 20px;
   background-color: lightgrey;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .meetmuse {
@@ -239,4 +239,14 @@ form label {
 label placeholder {
   font-family: Century Gothic, sans-serif;
   font-size: .8rem;
+}
+
+.media-object {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.media-heading {
+  margin: 10px;
 }
