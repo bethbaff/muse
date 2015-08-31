@@ -14,18 +14,53 @@ body {
   font-size: 16px;
 }
 
+header .investing {
+  background: url("../images/investing.jpg");
+  background-size: cover;
+
+}
+
+header .investing h1 {
+  height: 150px;
+}
+
+header .health {
+  background: url("../images/health.jpg");
+  background-size: cover;
+}
+
+header .health h1 {
+  height: 150px;
+}
+
+header .politics {
+  background: url("../images/politics.jpg");
+  background-size: cover;
+}
+
+header .politics h1 {
+  height: 150px;
+}
+
+header .other {
+  background: url("../images/chalk.jpg");
+  background-size: cover;
+
+}
+
+header .other h1 {
+  height: 150px;
+}
+
 h1 {
+  display: block;
   font-size: 3rem;
   padding: 20px;
   width: 100%;
   text-align: center;
-
+  box-shadow: 4px 4px 3px 1px #ddd;
 }
 
-h1 a {
-  background-image: url("http://www.pexels.com/photo/food-raspberries-fruits-7329/");
-  background-size: cover;
-}
 
 h2 {
   font-size: 1.5rem;
@@ -33,6 +68,15 @@ h2 {
   text-align: center;
   background-color: lightgrey;
   width: 100%;
+  box-shadow: 4px 4px 3px 1px #ddd;
+}
+
+.pastarticle h3 {
+  margin-top: 10px;
+}
+
+.article h3 {
+  margin-top: 5px;
 }
 
 .topics li {
@@ -54,15 +98,17 @@ h2 {
 button {
   padding: 20px;
   background-color: lightgrey;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .meetmuse {
+  display: block;
   font-size: 1rem;
   padding: 20px;
   text-align: center;
   background-color: slategrey;
   width: 100%;
+  box-shadow: 4px 4px 3px 1px #ddd;
 }
 
 .profilewrap {
@@ -83,9 +129,9 @@ footer {
 
 .footerbutton button {
   margin-top: 20px;
-  padding: 10px;
-  background-color: slategrey;
-  font-size: 10px;
+  padding: 15px;
+  background-color: #999999;
+  font-size: 1rem;
   clear: both;
   color: white;
 
@@ -137,11 +183,70 @@ footer {
 
 a {
   text-decoration: none;
-  color: slategrey;
+  color: black;
+  text-shadow: 1px 1px 1px #999;
 }
 
 .space {
   width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0, 10, 10, 0;
+}
+
+form {
+  margin: 10px 20px 10px 20px;
+
+}
+
+input {
+  margin: 10px;
+}
+
+input #aboutyou {
+  display: block;
+}
+
+input #contact {
+  display: block;
+}
+
+#aboutyou {
+  width: 80%;
+  padding: 1%;
+}
+
+#musinginterest {
+  width: 45%;
+  padding: 1%;
+}
+
+#firstinitial {
+  width: 20%;
+  padding: 1%;
+}
+
+#contact {
+  width: 25%;
+  padding: 1%;
+}
+
+form label {
+  display: block;
+  padding: 1%;
+}
+
+label placeholder {
+  font-family: Century Gothic, sans-serif;
+  font-size: .8rem;
+}
+
+.media-object {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.media-heading {
+  margin: 10px;
 }
